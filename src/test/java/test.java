@@ -11,5 +11,8 @@ import java.util.ArrayList;
 public class test {
     public static void main(String[] args) {
         System.out.println("热修分支");
+        System.out.println("master 热修分支1");
+        System.out.println("master 热修分支2");
+
     }
 }
