@@ -14,5 +14,7 @@ public class test {
         System.out.println("master 热修分支1");
         System.out.println("master 热修分支2");
 
+        System.out.println("热修分支 hot-fix1");
+        System.out.println("热修分支 hot-fix2");
     }
 }
