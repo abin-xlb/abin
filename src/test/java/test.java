@@ -16,5 +16,7 @@ public class test {
 
         System.out.println("热修分支 hot-fix1");
         System.out.println("热修分支 hot-fix2");
+
+        System.out.println("push test");
     }
 }
