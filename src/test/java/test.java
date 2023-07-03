@@ -27,38 +27,4 @@ public class test {
         employeeService.saveBatch(employees);
     }
 
-    public static void main(String[] args) {
-        test test = new test();
-        test.m1();
-        System.out.println("结束");
-    }
-
-    public void m1(){
-        System.out.println("111");
-//        try {
-//            m2();
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-        m2();
-        System.out.println("11111");
-    }
-
-    private void m2() {
-        System.out.println("222");
-                try {
-            m3();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-//        m3();
-        System.out.println("2222222");
-    }
-
-    private void m3() {
-        System.out.println("333");
-        System.out.println(10/0);
-        System.out.println("33333333");
-    }
-
 }
